@@ -19,4 +19,4 @@ features:
     description: Put ! description here
 ---
 
-yc-easy
+yc-easy 666
