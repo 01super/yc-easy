@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
+    "lib": ["DOM"],
+    "module": "ESNext",
     "strict": true,
+    "target": "ESNext",
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
