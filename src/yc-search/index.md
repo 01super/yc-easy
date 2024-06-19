@@ -1,13 +1,40 @@
 # Search 搜索
 
-支持异步函数和权限判断的按钮
+flex 布局的搜索组件
 
 ```jsx
 import { YcSearch } from 'yc-easy';
+import { Input } from 'antd';
 
 export default () => (
-  <YcSearch authKey="1" type="primary">
-    有权限才展示
+  <YcSearch rowCount={3}>
+    <YcSearch.Item label="我好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看吗我好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看吗">
+      <Input />
+    </YcSearch.Item>
+    <YcSearch.Item label="我好看吗">
+      <Input />
+    </YcSearch.Item>
   </YcSearch>
 );
 ```
